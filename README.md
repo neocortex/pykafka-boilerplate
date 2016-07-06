@@ -8,18 +8,18 @@ Instructions:
 - `pip` Install [pykafka](https://github.com/Parsely/pykafka)
 - Start the Zookeeper server
 
-    bin/zookeeper-server-start.sh config/zookeeper.properties
+        bin/zookeeper-server-start.sh config/zookeeper.properties
 
 - Start the Kafka server
 
-    bin/kafka-server-start.sh config/server.properties
+        bin/kafka-server-start.sh config/server.properties
 
 - Send some messages
 
-    python producer_test.py
+        python producer_test.py
 
 - Consume the messages
 
-    python consumer_test.py
+        python consumer_test.py
 
 See [here](http://kafka.apache.org/07/quickstart.html) for more information.
